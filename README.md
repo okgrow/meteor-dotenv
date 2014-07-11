@@ -11,6 +11,15 @@ This is [scottmotte/dotenv](https://github.com/scottmotte/dotenv) packaged for M
 > 
 > [Brandon Keepers' Dotenv in Ruby](https://github.com/bkeepers/dotenv)
 
+Why not Meteor.settings?
+------------------------
+
+[Meteor.settings](http://docs.meteor.com/#meteor_settings) is Meteor's standard way of defining deployment-specific configuration options. You should definitely use it for anything client-side (`Meteor.settings.public`). 
+
+And it's fine for server-side config too. But in some environments configuration is expected to be defined as environment variables (e.g. Heroku, especially anything defined by Heroku add-ons).
+
+And no need for `--settings` on the command-line.
+
 Installation
 ------------
 
