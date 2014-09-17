@@ -1,8 +1,0 @@
-{
-  "name": "dotenv",
-  "description": "Load environment variables from a .env file",
-  "homepage": "https://github.com/okgrow/meteor-dotenv",
-  "author": "Paul Dowman <paul@okgrow.com> (http://www.okgrow.com/)",
-  "version": "0.1.1",
-  "git": "https://github.com/okgrow/meteor-dotenv.git"
-}
