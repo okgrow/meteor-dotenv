@@ -23,7 +23,7 @@ And no need for `--settings` on the command-line.
 Installation
 ------------
 
-`mrt install dotenv`
+`meteor add pauldowman:dotenv`
 
 Usage
 -----
