@@ -1,6 +1,6 @@
 Package.describe({
   name:    "pauldowman:dotenv",
-  version: "1.0.0",
+  version: "1.0.1",
   summary: "Set environment variables defined in a .env file",
   git:     "https://github.com/okgrow/meteor-dotenv/"
 });
