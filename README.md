@@ -1,3 +1,7 @@
+# Deprecated for Meteor 1.3
+
+Meteor 1.3's integration with npm has made this package obsolete. You can now use npm's [dotenv](https://www.npmjs.com/package/dotenv) directly, but our recommendation is to use [direnv](http://direnv.net/), as it doesn't require making modifications to your project.
+
 dotenv for Meteor
 -----------------
 
@@ -10,11 +14,6 @@ This is [scottmotte/dotenv](https://github.com/scottmotte/dotenv) packaged for M
 > But it is not always practical to set environment variables on development machines or continuous integration servers where multiple projects are run. Dotenv load variables from a `.env` file into ENV when the environment is bootstrapped."
 > 
 > [Brandon Keepers' Dotenv in Ruby](https://github.com/bkeepers/dotenv)
-
-Meteor 1.3
-----------
-
-Meteor 1.3's integration with npm has made this package obsolete. You can now use npm's [dotenv](https://www.npmjs.com/package/dotenv) directly, but our recommendation is to use [direnv](http://direnv.net/), as it doesn't require making modifications to your project.
 
 Why not Meteor.settings?
 ------------------------
